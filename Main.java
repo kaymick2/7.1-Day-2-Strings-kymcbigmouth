@@ -7,7 +7,7 @@ class Main {
     Scanner input = new Scanner(System.in);
     String ohNo[] = new String[5];
     while (x <= 4) {
-      System.out.println("Please enter string for array element " + (x+1));
+      System.out.println("Please enter string for array element " + (x+1)+"(Index"+x+")");
       ohNo[x] = input.next();
       x++;
     }
